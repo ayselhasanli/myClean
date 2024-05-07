@@ -1,0 +1,44 @@
+/*welcome section*/
+
+main .page__navigation {
+  padding-top: 9.2rem;
+}
+
+main .page__navigation .container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+main .page__navigation .container a,
+i {
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+}
+
+main .page__navigation .container i {
+  font-size: 1.6rem;
+}
+
+main .page__navigation .container .active-page {
+  color: var(--color-yellow);
+}
+
+main .welcome__section {
+  margin-top: 3rem;
+  position: relative;
+}
+
+main .welcome__section img {
+  height: 33rem;
+  filter: grayscale(100%);
+}
+
+main .welcome__section .container h1 {
+  color: var(--color-brightwhite);
+  position: absolute;
+  bottom: -7.5rem;
+  text-transform: uppercase;
+}
+
+/*welcome section*/

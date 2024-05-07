@@ -1,0 +1,102 @@
+/* menu section */
+
+main {
+  padding-left: 13.5rem;
+  padding-bottom: 11rem;
+  gap: 9rem;
+}
+
+main .menu-nav {
+  padding-top: 5rem;
+}
+
+main .menu-nav a {
+  color: var(--color-brightwhite);
+}
+
+main .menu-nav ul {
+  margin-top: 4rem;
+  padding-left: 8rem;
+}
+
+main .menu-nav ul li {
+  margin-top: 7rem;
+}
+
+main .menu-nav ul li a {
+  font-size: 5rem;
+  font-weight: 700;
+  display: flex;
+  gap: 27rem;
+  transition: var(--transition);
+}
+
+main .menu-nav ul li a:hover {
+  color: var(--color-yellow);
+}
+
+main .menu-nav ul li a:hover i {
+  display: block;
+}
+
+main .menu-nav ul li a i {
+  display: none;
+}
+
+main .menu-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 80rem;
+  height: 90rem;
+  width: 64rem;
+}
+
+main .menu-img div img {
+  height: 90rem;
+  filter: grayscale(100%);
+}
+
+main .language-nav {
+  display: none;
+}
+
+main .language-nav ul {
+  display: flex;
+  padding: 6rem 3rem;
+  justify-content: space-between;
+}
+
+main .language-nav ul li a {
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/*menu media queries*/
+
+@media screen and (max-width: 400px) {
+  main {
+    padding: 3.5rem;
+  }
+  main .menu-img {
+    display: none;
+  }
+  main .menu-nav {
+    padding-top: 0;
+  }
+  main .menu-nav ul {
+    padding-left: 0;
+  }
+  main .menu-nav ul li {
+    margin-top: 3rem;
+  }
+  main .menu-nav ul li a {
+    font-size: 2.2rem;
+    gap: 16rem;
+  }
+  main .language-nav{
+    display: block;
+  }
+}

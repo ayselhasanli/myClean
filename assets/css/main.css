@@ -1,0 +1,1159 @@
+.more-btn {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: end;
+}
+
+.more-btn a {
+  color: var(--color-brightwhite);
+  font-size: 3.2rem;
+  font-family: var(--font-poppins);
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.more-btn a img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+/* home section */
+
+main .home__section {
+  padding-top: 13.5rem;
+}
+
+main .home__section .container {
+  display: flex;
+}
+
+main .home__section .container .home__content {
+  color: var(--color-white);
+  max-width: 74.6rem;
+}
+
+main .home__section .container .home__content h1 {
+  color: var(--color-brightwhite);
+}
+
+main .home__section .container .home__content p {
+  line-height: 2.4rem;
+  max-width: 37rem;
+  padding-top: 3rem;
+  font-weight: 400;
+  margin-bottom: 4.4rem;
+  font-family: var(--font-poppins);
+}
+
+main .home__section .container .home__img {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  right: 13.5rem;
+  bottom: 0;
+  width: 50%;
+  height: 89rem;
+  z-index: -999;
+}
+
+main .home__section .container .home__img img {
+  max-width: 100%;
+  filter: grayscale(100%);
+}
+
+main .home__section .container .home__img::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgb(14, 14, 14);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 14, 14, 1) 0%,
+    rgba(14, 14, 14, 0) 70%
+  );
+}
+
+main .home__section .container .home__content .more-info {
+  font-family: var(--font-poppins);
+  font-size: 3.2rem;
+  display: flex;
+  align-items: center;
+}
+
+main .home__section .container .home__content .more-info a {
+  margin-left: 4rem;
+}
+
+/* home section */
+
+/* statistics section */
+main .statistics__section {
+  background-color: var(--color-yellow);
+  padding: 3rem 2rem;
+  margin-top: 10rem;
+}
+
+main .statistics__section .container .statistic_cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main .statistics__section .container .statistic_cards .card {
+  text-align: center;
+  min-width: 10rem;
+}
+
+main .statistics__section .container .statistic_cards .card .title {
+  font-size: 7.3rem;
+}
+
+main .statistics__section .container .statistic_cards .card .description {
+  font-size: 3.6rem;
+}
+
+/* statistics section */
+
+/* about section */
+
+main .about__section {
+  padding: 17.2rem 0 16rem 13.5rem;
+  display: flex;
+  gap: 13rem;
+}
+
+main .about__section .section__content {
+  flex-grow: 1;
+}
+
+main .about__section .section__content h1 {
+  margin-bottom: 1.5rem;
+}
+
+main .about__section .section__content p {
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  max-width: 47rem;
+  margin-left: 10rem;
+  margin-top: 1.5rem;
+}
+
+main .about__section .section__content a {
+  color: var(--color-brightwhite);
+  margin-left: 10rem;
+  font-family: var(--font-poppins);
+  display: flex;
+  font-size: 3.2rem;
+  margin-top: 6rem;
+  align-items: center;
+}
+
+main .about__section .section__content a img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 3rem;
+}
+
+main .about__section .section__img {
+  display: flex;
+  justify-content: flex-end;
+  width: 60.5rem;
+  flex-grow: 1;
+}
+
+main .about__section .section__img img {
+  max-width: 100%;
+  height: 50rem;
+}
+
+/* about section */
+
+/* services section */
+main .services__section {
+  padding-bottom: 30rem;
+}
+
+main .services__section .container h1 {
+  text-align: center;
+}
+
+main .services__section .container .services__slider {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-top: 6rem;
+}
+
+main .services__section .container .services__slider .slider-nav {
+  display: flex;
+  align-items: center;
+}
+
+main .services__section .container .services__slider .card {
+  width: 30rem;
+  height: 41rem;
+  position: relative;
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+main .services__section .container .services__slider .card::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+main
+  .services__section
+  .container
+  .services__slider
+  .active_card
+  .card_img
+  img {
+  height: 39rem;
+}
+
+main .services__section .container .services__slider .card .card_img img {
+  height: 31rem;
+}
+
+main .services__section .container .services__slider .card .card_info {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+main .services__section .container .services__slider .card .card_info p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-brightwhite);
+  letter-spacing: -1.5%;
+  line-height: 3rem;
+}
+
+main .services__section .container .services__slider .active_card {
+  width: 37rem;
+  height: 39rem;
+  position: relative;
+}
+
+main .services__section .container .services__slider .active_card .card_info {
+  position: absolute;
+  padding: 2.5rem 1.5rem;
+  bottom: 0;
+  left: 0;
+}
+
+main .services__section .container .services__slider .active_card .card_info p {
+  color: var(--color-brightwhite);
+  margin-bottom: 1.5rem;
+}
+
+main
+  .services__section
+  .container
+  .services__slider
+  .active_card
+  .card_info
+  .card-info-heading {
+  font-size: 3.2rem;
+}
+
+main
+  .services__section
+  .container
+  .services__slider
+  .active_card
+  .card_info
+  .card-info-text {
+  max-width: 33rem;
+  font-family: var(--font-poppins);
+}
+
+main .services__section .container .services__slider .active_card .card_info a {
+  color: var(--color-brightwhite);
+  display: flex;
+  font-family: var(--font-poppins);
+  font-size: 3.2rem;
+  align-items: center;
+}
+
+main
+  .services__section
+  .container
+  .services__slider
+  .active_card
+  .card_info
+  a
+  img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 3rem;
+}
+
+main .services__section .services-slider-responsive {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  overflow: scroll;
+}
+
+main
+  .services__section
+  .services-slider-responsive
+  .service-card
+  .service-img
+  img {
+  width: 21rem;
+  height: 22rem;
+}
+
+main
+  .services__section
+  .services-slider-responsive
+  .service-card
+  .service-desc {
+  color: var(--color-brightwhite);
+}
+
+main
+  .services__section
+  .services-slider-responsive
+  .service-card
+  .service-desc
+  h3 {
+  margin: 2rem 0;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+}
+
+main
+  .services__section
+  .services-slider-responsive
+  .service-card
+  .service-desc
+  p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: var(--font-poppins);
+  max-width: 21rem;
+  margin-bottom: 4rem;
+}
+
+main
+  .services__section
+  .services-slider-responsive
+  .service-card
+  .service-desc
+  a {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: var(--color-brightwhite);
+  font-size: 1.8rem;
+  font-family: var(--font-poppins);
+}
+
+main
+  .services__section
+  .services-slider-responsive
+  .service-card
+  .service-desc
+  a
+  img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+/* services section */
+
+/* products section */
+
+main .products__section .container .product-cards {
+  display: flex;
+  gap: 3rem;
+}
+
+main
+  .products__section
+  .container
+  .product-cards
+  .product-card
+  .product-img
+  img {
+  width: 27rem;
+  height: 24rem;
+}
+
+main .products__section .container .product-cards .product-card .product-desc {
+  padding-top: 3rem;
+  color: var(--color-brightwhite);
+}
+
+main
+  .products__section
+  .container
+  .product-cards
+  .product-card
+  .product-desc
+  h3 {
+  font-size: 3.2rem;
+}
+
+main .products__section .container .product-cards .product-card .product-price {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  margin-top: 3.5rem;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+}
+
+main .products__section .container .product-cards .product-card .product-info {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 1rem;
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  max-width: 27rem;
+}
+
+main
+  .products__section
+  .container
+  .product-cards
+  .product-card
+  .product-desc
+  .more-about-product {
+  display: flex;
+  gap: 2rem;
+  color: var(--color-brightwhite);
+  font-size: 1.8rem;
+  font-family: var(--font-poppins);
+  margin-top: 4rem;
+  align-items: center;
+}
+
+main
+  .products__section
+  .container
+  .product-cards
+  .product-card
+  .product-desc
+  .more-about-product
+  img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+main
+  .products__section
+  .container
+  .product-cards
+  .product-card
+  .product-desc
+  .more-about-product {
+  display: none;
+}
+/* products section */
+
+/* cars section */
+
+main .cars__section {
+  padding-top: 16rem;
+}
+
+main .cars__section .container h1 {
+  text-align: center;
+}
+
+main .cars__section .container .car-cards {
+  display: flex;
+  gap: 3rem;
+}
+
+main .cars__section .container .car-cards .car-card .car-img img {
+  width: 37rem;
+  height: 26rem;
+}
+
+main .cars__section .container .car-cards .car-card .car-desc {
+  padding-top: 3rem;
+  color: var(--color-brightwhite);
+}
+
+main .cars__section .container .car-cards .car-card .car-desc h2 {
+  font-size: 4.5rem;
+}
+
+main .cars__section .container .car-cards .car-card .car-price {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  margin-top: 1.5rem;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+}
+
+main .cars__section .container .car-cards .car-card .car-info {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 1rem;
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  max-width: 27rem;
+}
+
+main .cars__section .container .car-cards .car-card .car-desc .more-about-car {
+  display: flex;
+  gap: 2rem;
+  color: var(--color-brightwhite);
+  font-size: 1.8rem;
+  font-family: var(--font-poppins);
+  margin-top: 4rem;
+  align-items: center;
+}
+
+main
+  .cars__section
+  .container
+  .car-cards
+  .car-card
+  .car-desc
+  .more-about-car
+  img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+main .cars__section .container .car-cards .car-card .car-desc .more-about-car {
+  display: none;
+}
+
+/* cars section */
+
+/* blog section */
+
+main .blog__section {
+  background-color: var(--color-yellow);
+  margin-top: 15rem;
+  padding: 6rem 0;
+}
+
+main .blog__section .container h1 {
+  color: var(--color-black);
+}
+
+main .blog__section .container .blog-content {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+main .blog__section .container .blog-content .nav-btn a {
+  color: var(--color-black);
+}
+
+main .blog__section .container .blog-content .blog-card a .blog-img {
+  width: 40rem;
+  height: 28rem;
+  display: flex;
+  align-items: end;
+  overflow: hidden;
+}
+
+main .blog__section .container .blog-content .blog-card {
+  display: flex;
+  gap: 7rem;
+}
+
+main .blog__section .container .blog-content .blog-card a {
+  color: var(--color-black);
+}
+
+main .blog__section .container .blog-content .blog-card .blog-text h2 {
+  font-size: 4.2rem;
+  line-height: 4.5rem;
+}
+
+main .blog__section .container .blog-content .blog-card .blog-text p {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  padding-top: 2rem;
+  padding-bottom: 5.5rem;
+  max-width: 47rem;
+}
+
+main .blog__section .container .blog-content .blog-card .more-btn {
+  justify-content: start;
+}
+
+main .blog__section .container .blog-content .blog-card .more-btn a {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+main .blog__section .container .blog-content .blog-card a .blog-img img {
+  height: auto;
+  margin-bottom: -6rem;
+}
+
+main .blog__section .container .nav-points {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 4rem;
+  display: none;
+}
+
+main .blog__section .container .nav-points span {
+  color: var(--color-brightwhite);
+}
+
+/* blog section */
+
+/* contact section */
+main .contact__section {
+  padding-top: 16rem;
+  padding-bottom: 4.5rem;
+}
+
+main .contact__section .container h1 {
+  text-align: center;
+}
+
+main .contact__section .container .contact-info {
+  display: flex;
+  gap: 10rem;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+main .contact__section .container .contact-info .main-contact-info {
+  flex-grow: 1;
+  max-width: 33rem;
+}
+
+main .contact__section .container .contact-info .contact-number {
+  flex-grow: 1;
+  max-width: 33rem;
+}
+
+main .contact__section .container .contact-info .social-media {
+  flex-grow: 1;
+  max-width: 33rem;
+}
+
+main .contact__section .container .contact-info i {
+  color: var(--color-yellow);
+  font-size: 2.2rem;
+}
+
+main .contact__section .container .contact-info p,
+span {
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+}
+
+main .contact__section .container .contact-info .main-contact-info .location {
+  display: flex;
+  gap: 4.5rem;
+}
+
+main .contact__section .container .contact-info .main-contact-info .mail {
+  display: flex;
+  gap: 4.5rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+main .contact__section .container .contact-info .contact-number {
+  display: flex;
+  gap: 4.5rem;
+}
+
+main .contact__section .container .contact-info .contact-number p:nth-child(2) {
+  margin-top: 1.5rem;
+}
+
+main .contact__section .container .contact-info .social-media {
+  display: flex;
+  gap: 5rem;
+}
+
+/* contact section */
+
+/* media queries */
+
+@media screen and (max-width: 300px) {
+  main .home__section .container .home__img {
+    height: 47rem;
+  }
+
+  main .blog__section .container .blog-content .blog-card a .blog-img {
+    width: 27rem !important;
+    height: 19rem !important;
+  }
+
+  main .blog__section .container .blog-content .blog-card .blog-text h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding-top: 1.7rem;
+  }
+
+  header .container {
+    align-items: center;
+  }
+
+  header .container .logo {
+    width: 10rem;
+    height: 6.2rem;
+  }
+
+  header .container nav ul .active_nav {
+    display: none;
+  }
+
+  main .home__section {
+    padding-top: 6.3rem;
+  }
+
+  main .home__section .container .home__content h1 {
+    font-size: 4.4rem;
+    line-height: 4.8rem;
+  }
+
+  main .home__section .container .home__content p {
+    max-width: 28rem;
+    padding-top: 0.4rem;
+    margin-bottom: 3rem;
+  }
+
+  main .home__section .container .home__img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0rem;
+    bottom: 0;
+    height: 47rem;
+    z-index: -999;
+  }
+
+  main .home__section .container .home__content .more-info {
+    font-size: 2.4rem;
+  }
+
+  main .statistics__section {
+    padding: 2rem 0;
+  }
+
+  main .statistics__section .container .statistic_cards .card {
+    margin-top: 1rem;
+  }
+
+  main .statistics__section .container .statistic_cards .card .title {
+    font-size: 2.9rem;
+  }
+
+  main .statistics__section .container .statistic_cards .card .description {
+    font-size: 1.6rem;
+  }
+
+  main .about__section .section__content h1 {
+    font-size: 4.4rem;
+  }
+
+  main .about__section .section__img img {
+    height: 21rem;
+  }
+
+  main .about__section .section__content a {
+    margin-top: 4rem;
+  }
+
+  main .services__section {
+    padding-top: 6rem !important;
+    padding-bottom: 8rem;
+  }
+
+  main .services__section .container h1 {
+    font-size: 4.4rem;
+    text-align: left;
+  }
+
+  main .products__section .container h1 {
+    font-size: 4.4rem;
+  }
+
+  main .products__section .container .more-btn {
+    display: none;
+  }
+
+  main
+    .products__section
+    .container
+    .product-cards
+    .product-card
+    .product-img
+    img {
+    width: 20rem;
+    height: 18rem;
+  }
+
+  main
+    .products__section
+    .container
+    .product-cards
+    .product-card
+    .product-desc
+    h3 {
+    font-size: 2.2rem;
+  }
+
+  main
+    .products__section
+    .container
+    .product-cards
+    .product-card
+    .product-price {
+    font-size: 2rem;
+  }
+
+  main
+    .products__section
+    .container
+    .product-cards
+    .product-card
+    .product-desc
+    .more-about-product {
+    display: flex;
+  }
+
+  main .cars__section {
+    padding-top: 8rem;
+  }
+
+  main
+    .cars__section
+    .container
+    .car-cards
+    .car-card
+    .car-desc
+    .more-about-car {
+    display: flex;
+  }
+
+  main .cars__section .container h1 {
+    font-size: 4.4rem;
+  }
+
+  main .cars__section .container .more-btn {
+    display: none;
+  }
+
+  main .cars__section .container .car-cards .car-card .car-img img {
+    width: 20rem;
+    height: 13rem;
+  }
+
+  main .cars__section .container .car-cards .car-card .car-desc h2 {
+    font-size: 2.2rem;
+  }
+
+  main .cars__section .container .car-cards .car-card .car-price {
+    font-size: 2rem;
+  }
+
+  main .blog__section {
+    padding: 3rem 0;
+  }
+
+  main .blog__section .container h1 {
+    font-size: 4.4rem;
+    line-height: normal;
+  }
+
+  main .blog__section .container .blog-content .blog-card a .blog-img {
+    width: 26rem !important;
+    height: 25rem !important;
+  }
+
+  main .blog__section .container .blog-content .nav-btn {
+    display: none;
+  }
+
+  main .blog__section .container .nav-points {
+    display: block;
+  }
+
+  main .contact__section {
+    padding-top: 8rem;
+  }
+
+  main .contact__section .container h1 {
+    font-size: 4.4rem;
+    text-align: left;
+  }
+
+  main .contact__section .container .contact-info {
+    gap: 5rem;
+    margin-top: 4rem;
+  }
+
+  footer{
+    padding-top: 4rem;
+  }
+
+  footer .responsive-footer {
+    display: block;
+    padding-bottom: 8rem;
+  }
+
+  footer .footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 726px) {
+  main .statistics__section {
+    margin-top: -2rem;
+  }
+
+  main .services__section {
+    padding-bottom: 10rem;
+  }
+
+  main .services__section .services__slider .slider-nav .more_info_btn {
+    display: none;
+  }
+
+  main .services__section .container .services__slider {
+    display: none;
+  }
+
+  main .services__section .services-slider-responsive {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 727px) {
+  main .services__section .services-slider-responsive {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 797px) {
+  main .blog__section .container .blog-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .blog__section .container .blog-content .blog-card {
+    display: block;
+  }
+  main .blog__section .container .blog-content .blog-card a .blog-img {
+    min-width: 100%;
+    height: 45rem;
+  }
+  main .blog__section .container .blog-content .blog-card .blog-text h2 {
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  main .services__section .services__slider .slider-nav .more_info_btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  main .about__section {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  main .about__section .section__content {
+    padding-top: 2rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  main .about__section .section__content p {
+    max-width: 100%;
+  }
+
+  main .about__section .section__content a {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  main .about__section .section__content a img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 3rem;
+  }
+
+  main .about__section .section__img {
+    width: 100%;
+  }
+
+  main .services__section {
+    padding-top: 10rem;
+  }
+
+  main .blog__section .container .blog-content .blog-card a .blog-img {
+    width: 35rem;
+    height: 26rem;
+  }
+}
+
+@media screen and (max-width: 1073px) {
+  main .services__section .container .services__slider .card {
+    height: 30rem;
+  }
+
+  main .services__section .container .services__slider .card .card_img img {
+    height: 24rem;
+  }
+
+  main .services__section .container .services__slider .card .card_info p {
+    font-size: 2rem;
+  }
+
+  main .services__section .container .services__slider .active_card {
+    height: 28rem;
+  }
+
+  main
+    .services__section
+    .container
+    .services__slider
+    .active_card
+    .card_img
+    img {
+    height: 28rem;
+  }
+
+  main .services__section .container .services__slider .active_card .card_ {
+    padding: 0.5rem 1.5rem;
+  }
+
+  main
+    .services__section
+    .container
+    .services__slider
+    .active_card
+    .card_info
+    .card-info-heading {
+    font-size: 2.2rem;
+  }
+
+  main
+    .services__section
+    .container
+    .services__slider
+    .active_card
+    .card_info
+    .card-info-text {
+    font-size: 1.3rem;
+  }
+
+  main
+    .services__section
+    .container
+    .services__slider
+    .active_card
+    .card_info
+    a {
+    font-size: 1.5rem;
+  }
+
+  main
+    .services__section
+    .container
+    .services__slider
+    .active_card
+    .card_info
+    a
+    img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .more_info_btn {
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  main .about__section .section__content p {
+    margin-left: 0;
+  }
+
+  main .products__section .container .product-cards {
+    overflow: scroll;
+  }
+
+  main .cars__section .container .car-cards {
+    overflow: scroll;
+  }
+
+  main .blog__section .container .blog-content {
+    gap: 3rem;
+  }
+
+  main .blog__section .container .blog-content .blog-card {
+    gap: 2rem;
+  }
+
+  main .blog__section .container .blog-content .blog-card .blog-text p {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  main .blog__section .container .blog-content .blog-card .blog-text h2 {
+    font-size: 3.2rem;
+  }
+
+  main .blog__section .container .blog-content .blog-card .more-btn a {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  main .blog__section .container .blog-content .blog-card .more-btn a img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1185px) {
+  main .about__section {
+    gap: 6rem;
+  }
+}
+
+/* media queries */

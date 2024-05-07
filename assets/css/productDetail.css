@@ -1,0 +1,121 @@
+main .page__navigation {
+  padding-top: 9.2rem;
+}
+
+main .page__navigation .container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+main .page__navigation .container a,
+i {
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+}
+
+main .page__navigation .container i {
+  font-size: 1.6rem;
+}
+
+main .page__navigation .container .active-page {
+  color: var(--color-yellow);
+}
+
+/*product card*/
+
+main .product__card {
+  padding-top: 6rem;
+}
+
+main .product__card .container {
+  display: flex;
+  gap: 13rem;
+}
+
+main .product__card .container .product-info {
+  flex: 1;
+  flex-basis: 47rem;
+}
+
+main .product__card .container .product-info h2 {
+  color: var(--color-yellow);
+}
+
+main .product__card .container .product-info .product-price {
+  font-size: 2.4rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+  font-weight: 600;
+}
+
+main .product__card .container .product-info .product-desc {
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+  /* max-width: 47rem; */
+}
+
+main .product__card .container .product-img {
+  flex: 1;
+  height: 40rem;
+  flex-basis: 57rem;
+}
+
+main .product__card .container .product-img img {
+  max-width: 100%;
+}
+
+/*product card*/
+
+/*media  queries*/
+@media screen and (max-width: 1140px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  main .product__card .container {
+    gap: 5rem;
+  }
+
+  main .product__card .container .product-info .product-price {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 726px) {
+  main .product__card .container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  main .page__navigation .container .nav-mainpage {
+    display: none;
+  }
+
+  main .page__navigation .container i:nth-child(2) {
+    display: none;
+  }
+
+  main .product__card .container .product-info h2 {
+    font-size: 2.2rem;
+  }
+
+  main .product__card .container .product-img {
+    order: -1;
+    height: 19rem;
+  }
+
+  main .product__card .container .product-info .product-price {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  main .product__card {
+    padding-bottom: 5.5rem;
+  }
+}

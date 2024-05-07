@@ -1,0 +1,168 @@
+/* header section */
+
+header {
+  padding-top: 3.5rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .logo {
+  width: 16.5rem;
+  height: 10rem;
+}
+
+header .container .logo img {
+  max-width: 100%;
+}
+
+header .container nav ul {
+  display: flex;
+  gap: 7.3rem;
+}
+
+header .container nav ul li a {
+  color: var(--color-white);
+}
+
+header .container nav ul li a i {
+  margin-left: 4rem;
+}
+
+header .container nav ul li a img {
+  width: 2.8rem;
+  height: 1.6rem;
+}
+
+/* header section */
+
+/*footer section*/
+footer {
+  padding-top: 11rem;
+}
+
+footer .footer {
+  padding-bottom: 17rem;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .container .logo {
+  width: 15rem;
+  height: 9rem;
+}
+
+footer .container .footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19rem;
+}
+
+footer .container .footer-nav ul li {
+  margin-top: 1.5rem;
+}
+
+footer .container .footer-nav ul li a {
+  font-family: var(--font-poppins);
+  color: var(--color-brightwhite);
+  font-weight: 400;
+}
+
+footer .container .footer-nav ul .footer-social-media {
+  display: flex;
+  gap: 2rem;
+}
+
+footer .responsive-footer .container ul li {
+  margin-top: 1.5rem;
+}
+
+footer .responsive-footer .container ul li a {
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+}
+
+footer .responsive-footer .container ul .logo {
+  margin-top: 4.4rem;
+}
+
+footer .responsive-footer .container ul .logo img {
+  width: 13rem;
+  height: 8rem;
+}
+
+footer .responsive-footer .container ul .footer-social-media {
+  display: flex;
+  font-size: 4.8rem;
+  gap: 2.8rem;
+}
+
+footer .responsive-footer {
+  display: none;
+}
+
+footer .subfooter {
+  background-color: var(--color-yellow);
+  padding: 1.6rem 0;
+  text-align: center;
+  font-family: var(--font-poppins);
+  font-size: 1.2rem;
+}
+
+/*footer section*/
+
+/*Media queries*/
+
+@media screen and (max-width: 600px) {
+  header {
+    padding-top: 1.7rem;
+  }
+
+  header .container {
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  header .container .logo {
+    width: 10rem;
+    height: 6.2rem;
+  }
+
+  header .container nav ul .active_nav {
+    display: none;
+  }
+
+  footer {
+    padding-top: 4rem;
+  }
+
+  footer .responsive-footer {
+    display: block;
+    padding-bottom: 8rem;
+  }
+
+  footer .footer {
+    display: none;
+  }
+
+  footer .responsive-footer .container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  header .container {
+    padding: 0 2rem;
+  }
+
+  footer .container {
+    padding-left:  2rem;
+    padding-right: 2rem;
+  }
+}
