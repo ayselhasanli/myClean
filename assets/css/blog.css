@@ -42,3 +42,133 @@ main .welcome__section .container h1 {
 }
 
 /*welcome section*/
+
+/*blog cards*/
+main .blog__cards {
+  padding-top: 10.2rem;
+}
+
+main .blog__cards .blog-card {
+  display: flex;
+  gap: 5rem;
+  margin-top: 6rem;
+}
+
+main .blog__cards .blog-card .card-img {
+  flex: 1;
+  width: 37rem;
+}
+
+main .blog__cards .blog-card .card-img img {
+  height: 29rem;
+}
+
+main .blog__cards .blog-card .card-info {
+  max-width: 47rem;
+}
+
+main .blog__cards .blog-card .card-info h2 {
+  color: var(--color-brightwhite);
+  font-weight: 700;
+}
+
+main .blog__cards .blog-card .card-info p {
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+  margin-top: 2rem;
+  margin-bottom: 5.5rem;
+}
+
+main .blog__cards .blog-card .card-info .more-info {
+  display: flex;
+  color: var(--color-brightwhite);
+  font-family: var(--font-poppins);
+  font-size: 3.2rem;
+  gap: 3rem;
+  align-items: center;
+}
+
+main .blog__cards .blog-card .card-info .more-info img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/*media queries*/
+@media screen and (max-width: 1440px) {
+  main .page__navigation .container,
+  main .welcome__section .container,
+  main .blog__cards .container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 863px) {
+  main .blog__cards .blog-card {
+    gap: 2rem;
+  }
+  main .blog__cards .blog-card .card-info p {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  main .blog__cards .blog-card .card-info .more-info {
+    font-size: 2rem;
+  }
+
+  main .blog__cards .blog-card .card-info .more-info img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  main .blog__cards .blog-card .card-img {
+    width: 30rem;
+  }
+
+  main .blog__cards .blog-card .card-info h2 {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  main .blog__cards .blog-card .card-info h2 {
+    font-size: 2.2rem;
+  }
+  main .blog__cards .blog-card .card-info .more-info {
+    font-size: 1.8rem;
+  }
+
+  main .blog__cards .blog-card .card-info .more-info img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  main .page__navigation .container .nav-mainpage {
+    display: none;
+  }
+  main .blog__cards {
+    padding-top: 3rem;
+  }
+  main .blog__cards .blog-card {
+    flex-wrap: wrap;
+  }
+
+  main .blog__cards .blog-card .card-img {
+    width: 100%;
+  }
+
+  main .blog__cards .blog-card .card-img img {
+    height: auto;
+  }
+
+  main .blog__cards .blog-card .card-info p {
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+  }
+
+  main .welcome__section .container h1 {
+  bottom: -6.5rem;
+  font-size: 4.4rem;
+}
+}

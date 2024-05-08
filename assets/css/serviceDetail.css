@@ -127,6 +127,7 @@ main .service-content-right .service-text a img {
   main .page__navigation .container .nav-mainpage {
     display: none;
   }
+  
   main .service__content .service-content-left,
   main .service__content .service-content-right {
     flex-wrap: wrap;
