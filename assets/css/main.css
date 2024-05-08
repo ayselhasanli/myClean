@@ -713,23 +713,6 @@ main .contact__section .container .contact-info .social-media {
 }
 
 @media screen and (max-width: 600px) {
-  header {
-    padding-top: 1.7rem;
-  }
-
-  header .container {
-    align-items: center;
-  }
-
-  header .container .logo {
-    width: 10rem;
-    height: 6.2rem;
-  }
-
-  header .container nav ul .active_nav {
-    display: none;
-  }
-
   main .home__section {
     padding-top: 6.3rem;
   }
@@ -914,19 +897,6 @@ main .contact__section .container .contact-info .social-media {
   main .contact__section .container .contact-info {
     gap: 5rem;
     margin-top: 4rem;
-  }
-
-  footer{
-    padding-top: 4rem;
-  }
-
-  footer .responsive-footer {
-    display: block;
-    padding-bottom: 8rem;
-  }
-
-  footer .footer {
-    display: none;
   }
 }
 

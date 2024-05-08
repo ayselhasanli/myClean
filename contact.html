@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Haqqımızda</title>
+    <title>Blog Content</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,15 +20,17 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/general.css" />
-    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="logo">
-          <a href="./index.html"><img src="./assets/media/logo.png" alt="logo" /></a>
+          <a href="./index.html"
+            ><img src="./assets/media/logo.png" alt="logo"
+          /></a>
         </div>
         <nav>
           <ul>
@@ -48,64 +50,67 @@
     <main>
       <section class="page__navigation">
         <div class="container">
-          <a href="./index.html" class="nav-mainpage">Ana səhifə</a>
+          <a class="nav-mainpage" href="./index.html">Ana səhifə</a>
           <i class="fa-solid fa-chevron-right"></i>
-          <a href="./about.html" class="active-page">Haqqımızda</a>
+          <a href="./blogContent.html" class="active-page"
+            >Əlaqə</a
+          >
         </div>
       </section>
 
       <section class="welcome__section">
-        <img src="./assets/media/about-1.jpg" alt="" />
+        <img src="./assets/media/contact.jpg" alt="" />
 
         <div class="container">
-          <h1>HAQQIMIZDA</h1>
+          <h1>Əlaqə</h1>
         </div>
       </section>
 
-      <section class="about__content">
-        <div class="about-content-right">
-          <div class="content-text">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut
-            </p>
-            <p>
-              Aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-          <div class="content-img">
-            <img src="./assets/media/about-2.jpg" alt="" />
-          </div>
-        </div>
+      <section class="contact__section">
+        <div class="container">
+          <div class="contact-info">
+            <div class="main-contact-info">
+              <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque
+                </p>
+              </div>
 
-        <div class="about-content-left">
-          <div class="content-img">
-            <img src="./assets/media/about-3.jpg" alt="" />
-          </div>
-          <div class="content-text">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut
-            </p>
-            <p>
-              Aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </p>
+              <div class="mail">
+                <i class="fa-solid fa-envelope"></i>
+                <p>mailsadlfkjskdrhfksd@mail.ru</p>
+              </div>
+            </div>
+
+            <div class="contact-number">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <p>+994 50 xxx xx xx</p>
+                <p>+994 55 xxx xx xx</p>
+              </div>
+            </div>
+
+            <div class="social-media">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
           </div>
         </div>
+      </section>
+
+       <section class="map__section">
+        <iframe
+          src="https://snazzymaps.com/embed/604241"
+          width="100%"
+          height="690px"
+          style="border: none"
+        ></iframe>
       </section>
     </main>
 
-     <footer>
+    <footer>
       <div class="container footer">
         <div class="logo">
           <a href=""><img src="./assets/media/logo.png" alt="logo" /></a>
@@ -119,7 +124,7 @@
           <ul>
             <li><a href="./cars.html">Avtomobillər</a></li>
             <li><a href="./blog.html">Bloq</a></li>
-            <li><a href="">Əlaqə</a></li>
+            <li><a href="./contact.html">Əlaqə</a></li>
           </ul>
           <ul>
             <li><a href="">Bizi izlə</a></li>
@@ -135,7 +140,7 @@
         <div class="container">
           <ul>
             <li class="logo">
-              <a href="./index.html"><img src="./assets/media/logo.png" alt="logo" /></a>
+              <a href=""><img src="./assets/media/logo.png" alt="logo" /></a>
             </li>
             <li><a href="./about.html">Haqqımızda</a></li>
             <li><a href="./services.html">Xidmətlər</a></li>
